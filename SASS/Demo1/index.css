@@ -1,0 +1,71 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+.header h1 {
+  color: #133299;
+  text-align: center;
+}
+.header p {
+  text-align: center;
+}
+
+.notification .warning, .notification .error, .notification .success, .notification .message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+  width: 100%;
+  margin: 0 auto;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.demo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.demo .box {
+  width: 20px;
+  height: 20px;
+  background-color: beige;
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.notification {
+  width: 60%;
+  margin: 0 auto;
+}
+.notification .success {
+  border-color: green;
+}
+.notification .error {
+  border-color: red;
+}
+.notification .warning {
+  border-color: yellow;
+}
+
+.container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+article[role=main] {
+  float: left;
+  width: 62.5%;
+  height: 30px;
+  background-color: bisque;
+}
+
+aside[role=complementary] {
+  float: right;
+  width: 31.25%;
+  height: 30px;
+  background-color: cadetblue;
+}
+
+/*# sourceMappingURL=index.css.map */
